@@ -27,7 +27,7 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>test_web_flutter</title>
-  <link rel="manifest" href="https://enehry.github.io/manifest.json">
+  <link rel="manifest" href="https://enehry.github.io/flutter_test_web/manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -36,10 +36,10 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=344691060');
+        navigator.serviceWorker.register('https://enehry.github.io/flutter_test_web/flutter_service_worker.js?v=344691060');
       });
     }
   </script>
-  <script src="https://enehry.github.io/main.dart.js" type="application/javascript"></script>
+  <script src="https://enehry.github.io/flutter_test_web/main.dart.js" type="application/javascript"></script>
 </body>
 </html>
